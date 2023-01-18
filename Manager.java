@@ -40,9 +40,8 @@ public class Manager
         }
         String decision = "";
         
-        while(true && isPlaying)
+        while(true)
         {
-            kb.nextLine();
             System.out.println("Play again? (Y/N): ");
             decision = kb.nextLine();
             if(decision.equalsIgnoreCase("Y") || decision.equalsIgnoreCase("N")) break;
